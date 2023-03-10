@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(https://images.pexels.com/photos/7238759/pexels-photo-7238759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: 100%;
+}
+
+header{
+    background-color: rgb(146, 255, 167);
+    /* height: 50px; */
+    border: solid 1px green;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    list-style:none;
+    display: flex;
+    border: solid 1px goldenrod;
+}
