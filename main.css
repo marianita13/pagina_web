@@ -22,9 +22,65 @@ header{
     border: solid 1px green;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    width: 100%;
 }
 .menu{
     list-style:none;
     display: flex;
-    border: solid 1px goldenrod;
+    /* border: solid 1px goldenrod; */
+    gap: 30px;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+}
+header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>div>div{
+    /* background-color: aqua; */
+    position: absolute;
+    left: 45px;
+    background-image: url(../css-pages/images/pngwing.com.png);
+    background-size:contain;
+    width: 80px;
+    height: 40px;
+}
+.menu>li{
+    padding: 10px;
+}
+.menu>li:hover{
+    background-color: rgb(40, 194, 34);
+    cursor: pointer;
+}
+#services:hover .submenu{
+    visibility:visible;
+    background-color: rgba(161, 249, 255, 0.527);
+}
+.submenu{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+}
+.submenu li:hover{
+    background-color: bisque;
+}
+main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    /* background-color: aquamarine; */
+    font-style:oblique ;
+    font-weight: 1000;
+}
+.icon{
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: black;
+    fill: black;
 }
